@@ -29,4 +29,4 @@ RUN chown -R www-data:www-data /app/storage /app/bootstrap/cache
 
 EXPOSE 8090
 
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8090"]npm
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8090"]
